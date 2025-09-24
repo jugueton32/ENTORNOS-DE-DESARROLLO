@@ -1,0 +1,139 @@
+/* Reset básico y estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #e63946;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Estilos para la navegación */
+nav {
+    background-color: #1d3557;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #457b9d;
+}
+
+/* Contenedor de la imagen principal */
+.imagen-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.imagen-principal img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid #a8dadc;
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+article {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1d3557;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #a8dadc;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: #e63946;
+}
+
+em {
+    font-style: italic;
+    color: #457b9d;
+}
+
+mark {
+    background-color: rgba(230, 57, 70, 0.2);
+    padding: 0 0.2em;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #1d3557;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imagen-principal {
+        margin: 1rem;
+    }
+    
+    article {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,94 @@
+body.pagina {
+    background-image: url('../Mirador de Montepinar/fotos%20trabajo/1.jpg');
+    background-color: #f0f0f0; /* Color de fondo alternativo */
+    background-image: url('../img/fashion.jpg'); /* Ruta relativa */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+#nombre {
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 0;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.personajes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cuadro-personaje {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+.cuadro-personaje img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.cuadro-personaje p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
